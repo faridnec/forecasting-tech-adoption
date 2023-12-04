@@ -1,0 +1,9 @@
+NOTES
+
+# Data Collection
+
+In general, CSV is considered to be a more convenient format for data analysis than Excel. This is because CSV files are plain text files, which makes them easy to parse and manipulate with programming languages. Additionally, CSV files are smaller and more lightweight than Excel files, which makes them easier to store and transmit.
+
+# Classififation
+
+# Model
