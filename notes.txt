@@ -1,0 +1,48 @@
+NOTES
+
+# Data Collection
+
+In general, CSV is considered to be a more convenient format for data analysis than Excel. This is because CSV files are plain text files, which makes them easy to parse and manipulate with programming languages. Additionally, CSV files are smaller and more lightweight than Excel files, which makes them easier to store and transmit.
+
+# Classififation
+
+Natural Language Processing (NLP) and Machine Learning:
+Preprocess Patent Texts:
+
+Clean and preprocess the text data from patent documents. This may include tasks such as tokenization, removing stop words, and stemming.
+Create a Training Dataset:
+
+Manually categorize a subset of patent documents to create a labeled training dataset. Each document should be labeled with the corresponding taxonomy category.
+Feature Extraction:
+
+Convert the preprocessed text into numerical features. This can be done using techniques such as TF-IDF (Term Frequency-Inverse Document Frequency).
+Train a Machine Learning Model:
+
+Use a machine learning algorithm (e.g., Support Vector Machines, Random Forests, or a neural network) to train a model on the labeled training dataset. The model should learn the mapping between patent document features and taxonomy categories.
+Evaluate Model Performance:
+
+Assess the model's performance on a separate validation dataset to ensure it generalizes well to new, unseen patent documents.
+Predict Categories for New Patent Applications:
+
+Apply the trained model to predict the categories of new patent applications based on their textual content.
+
+
+Combining Manual and Automated Approaches:
+Initial Manual Categorization:
+
+Start with manual categorization for a subset of patent applications to create a ground truth dataset.
+Train a Model:
+
+Use this ground truth dataset to train a machine learning model.
+Automated Categorization:
+
+Apply the trained model to categorize a larger set of patent applications automatically.
+Manual Review and Iteration:
+
+Review the results of the automated categorization and iteratively refine the model or manually adjust categories as needed.
+Validation and Quality Check:
+
+Randomly select a sample of patent applications to manually validate the categorization results and ensure the quality of the automated process.
+Remember that patent documents can be complex, and understanding the context of the technology is crucial. Combining human expertise with automated tools can help achieve more accurate and efficient categorization. Additionally, regular updates and reviews of the taxonomy and categorization methods may be necessary to adapt to changes in technology and industry trends.
+
+# Model
