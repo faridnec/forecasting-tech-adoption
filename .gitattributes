@@ -1,3 +1,0 @@
-hupd_metadata_2022-02-22.feather filter=lfs diff=lfs merge=lfs -text
-g_application.tsv filter=lfs diff=lfs merge=lfs -text
-annual.dta filter=lfs diff=lfs merge=lfs -text
