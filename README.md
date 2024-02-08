@@ -9,14 +9,14 @@
 
 ## CHECKPOINT
 
-- [x] Conducting Research on Patents Analysis, AI Methods, and Innovative Model.
+- [x] Conducting Research on Patents Analysis, AI Methods, and Adoption/Innovation Models.
 - [x] Collecting patents data from the USPTO database.
-- [x] Modeling UAV Technologies using S-Curve Innovative Difussion Model.
+- [x] Modeling UAV Technologies using S-Curve Adoption/Innovation Difussion Model.
 - [x] Data Preprocessing: Data Cleaning, Formatting, Feature Engineering (`['SECTION','YEAR']`)
     - [ ] One Hot Encoding
     - [ ] Missing Values
 - [ ] Exploratory Data Analysis (EDA)
-- [x] Innovative Model (S-Curve, Logistic Growth Model)
+- [x] Innovation Models (S-Curve, Logistic Growth Model)
 - [ ] SSTT Taxonomy Classificator Model
 - [ ] Cluster
 

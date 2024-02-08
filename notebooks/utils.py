@@ -3,6 +3,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
+# Define the logistic function
+def logistic_curve(x, L, k, x0):
+    return L / (1 + np.exp(-k * (x - x0)))
+
 def calculate_cumulative_count_per_category(data: pd.DataFrame, categories: list):
     """
     Calculate the cumulative count of patent applications per year for each unique category.
