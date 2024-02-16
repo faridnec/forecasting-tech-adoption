@@ -12,7 +12,7 @@ integrated_df = pd.concat(dfs, ignore_index=True)
 
 # Write integrated DataFrame to a new Excel sheet
 with pd.ExcelWriter(excel_file, mode='a', engine='openpyxl') as writer:
-    integrated_df.to_excel(writer, sheet_name='integrated_db', index=False)
+    integrated_df.to_excel(writer, sheet_name='INTEGRATED_DB', index=False)
 
 # import sys
 # print(sys.path)

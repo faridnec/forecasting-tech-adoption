@@ -1,0 +1,61 @@
+AI
+
+A09 ("Data  Information Management" OR "Digital Signal Processing" OR "Optical Signal Processing" OR "Image Pattern Processing"  OR "Natural Language Processing" OR "Optimisation Decision Support" OR "Information  Data Fusion").TI. and @AY>="2006"
+
+C01 ("Policy  Development" OR "Investment Appraisals" OR "Platform  System" OR "Requirements Definition"  OR "Scenario Generation" OR "Tactical Development  Support" OR "Military Doctrine" or " Combat Simulation").TI. and @AY>="2006"
+
+A08 ("Software Engineering" OR "Protocol Technology" OR "Software Assessment" OR "Safety Critical Computing"  OR "Secure Computing" OR "Encryption  Crypto" OR "Mathematical Modeling" OR "Software Verification  Accreditation" OR "High Performance Computing").TI. and @AY>="2006"
+
+C07 ("Information Infrastructure" OR "Platform Command Control" OR "Command Control" OR "Digitization  battlespace"  OR "Intelligence Surveillance" OR "command control system" OR "Space Situational").TI. and @AY>="2006"
+
+B07 ( "autonomous navigation" or "military display systems" or "defense display systems" or "Weapon Guidance  Control" OR "Platform Guidance  Control" OR "Stores  Weapons Release").TI. and @AY>="2006"
+
+B14 ( "encryption techniques" or "Endpoint Security" or "Identity Access Management" or "network security protocols" or "Cloud Computing Security" OR "application Security" or "Internet of Things  Security" or "data security" or "Cybersecurity for Autonomous" or "hardware Security").TI. and @AY>="2006"
+
+
+Aviation
+
+C02 ( "Undersea Platforms" or "Tanks vehicles" or "Logistics Command  Surveillance" or "Combat Aircraft" OR "unmanned aerial vehicles" or "Unmanned Land Vehicles" or "Unmanned  Sea  Vehicles" or "Search Rescue" or "Lighter-than-Air Platforms" or "rotary wing aircraft").TI. and @AY>="2006"
+
+B02 ( "gas turbines PROPULSION" OR "PROPULSION piston engines" or "Air rotor " or "Rotary IC Engines" or "Hybrid propulsion Systems" or "Electrical Propulsion").TI. and @AY>="2006"
+
+C03 ( " Missile Systems" OR " Gun Systems" OR "Directed Energy Weapons" or "air Torpedoes" or "Missile  Anti Air" or "Non Lethal Weapons").TI. and @AY>="2006"
+
+B10 (  "Below Microwave Frequencies" or "Micro  Millimetre Wave" or "Geographic Information System" or "Air Traffic Control Systems" or "IR/Visible/UV").TI. and @AY>="2006"
+
+
+SPACE
+
+C02 ( "Communication Satellites" or "Surveillance  Satellites" or "Navigation Satellites" or "Space Launchers").TI. and @AY>="2006"
+
+B02 ( "Rocket Engines" OR "RAMJETS" OR "Ion Thrusters" or "Nuclear Propulsion " or "Solar Sails" or "Chemical Propulsion Systems" or "Plasma Thrusters" OR "Electrical Propulsion").TI. and @AY>="2006"
+
+C04 ( "  Ground Control" OR " Flight Operations Centers" or "Mission Control" or "Ground Stations" or "Site Decontamination" or "Defensive Structures" or "Military Engineering Support" or "Military Test Facilities" or "Military Fortifications" or "Environmental Remediation" or "CBRN Decontamination" or "Defensive Installations").TI. and @AY>="2006"
+
+B08 ( "space simulation" OR "extravehicular activity" or "Synthetic environment" or "Skills Training Systems" OR "Crew Training Systems" or "Command Training Systems" or "tactical training systems").TI. and @AY>="2006"
+
+B09 (  "spacecraft systems" or "Interoperability Standards" or "Radiation Hardening" or "AUTOMATED Robotics  systems" OR "Reliability  Maintainability of Systems" or "Health Monitoring Systems" or "Middleware Systems" or "Electromagnetic Compatibility" or "Integrated System Testing  Evaluation").TI. and @AY>="2006"
+
+
+LASER
+
+A04 ("UV Detector Materials" OR "Non-Linear Optical Materials" OR "Display Materials" OR "Laser Components" OR "Optical Materials" OR "Photonic Materials" OR "Optoelectronic Materials" OR "Optical Fiber") .TI. AND ("Photonics" OR "Optics" OR "Laser" OR "Display" OR "Fiber Optic" OR "Fiber Optics") .TI. AND @AY>="2006" 
+
+B04 ( "Directed Energy" or "Laser Defense" OR "laser countermeasures" OR "Electronic Protection" OR "LASER JAMMING" OR "laser based" OR "Electronic Protection" OR "ELECTRONIC WARFARE").TI. and @AY>="2006"
+
+
+COMPOSITE
+
+A01 ("Ceramic Matrix Composite" OR "Polymer Matrix Composite" OR "Ablative Composite Materials" OR "Metal Matrix Composite") 
+.TI. AND @AY>="2006"
+
+B12 ("Composite Manufacturing" OR "Composite Design" OR "Composite Prototyping" OR "Composite Production Techniques" OR "Composite Process Control" OR "Composite Manufacturing Simulation" OR "Composite Lean Manufacturing" OR "Environmentally Friendly Composite Processes" OR "Composite Advanced Manufacturing Technologies" OR "Composite Fabrication" OR "Composite Tooling" OR "Composite Molding" OR "Composite Lamination" OR "Composite Bonding" OR "Composite Machining" OR "Composite Inspection" OR "Composite Quality Control") 
+.TI. AND @AY>="2006" 
+
+
+
+
+
+
+
+

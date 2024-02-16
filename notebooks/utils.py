@@ -7,6 +7,20 @@ from scipy.optimize import curve_fit
 def logistic_curve(x, L, k, x0):
     return L / (1 + np.exp(-k * (x - x0)))
 
+def drop_rows_with_nan(df, column_name):
+    """
+    Drop rows containing NaN values in the specified column.
+
+    Parameters:
+    - df: DataFrame to operate on
+    - column_name: Name of the column to check for NaN values
+
+    Returns:
+    - DataFrame with rows containing NaN values in the specified column dropped
+    """
+    nan_indices = df[df[column_name].isna()].index
+    return df.drop(index=nan_indices)
+
 def calculate_cumulative_count_per_category(data: pd.DataFrame, categories: list):
     """
     Calculate the cumulative count of patent applications per year for each unique category.
@@ -35,7 +49,7 @@ def plot_cumulative_s_curves(data: pd.DataFrame):
 
     Parameters:
     - data: DataFrame containing the cumulative count of patent applications per year for each category
-    """
+    """ 
     plt.figure(figsize=(10, 6))
     categories = data['CATEGORY'].unique()
 
@@ -75,16 +89,11 @@ def plot_one_cumulative_s_curves(data, year_col, count_col, category_col, catego
         # Plot the cumulative S-curve for the current category
         plt.plot(applications_per_year.index, applications_per_year.values, marker='o', linestyle='-', label=category_value)
     
-    # Add title and labels
     plt.title(plot_title)
     plt.xlabel('Year')
     plt.ylabel('Cumulative Patent Applications')
     plt.grid(True)
-    
-    # Add legend
     plt.legend()
-    
-    # Show plot
     plt.show()
 
 
