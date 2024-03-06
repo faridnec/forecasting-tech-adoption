@@ -10,7 +10,7 @@ tmp/
 #custom
 syntheticData.ipynb
 backup/
-
+raw/
 
 # C extensions
 *.so

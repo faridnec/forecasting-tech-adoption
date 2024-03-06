@@ -21,6 +21,27 @@ def drop_rows_with_nan(df, column_name):
     nan_indices = df[df[column_name].isna()].index
     return df.drop(index=nan_indices)
 
+def calculate_cumulative_count(data: pd.DataFrame, categories: list):
+    """
+    Calculate the cumulative count of patent applications per year for each unique category.
+
+    Parameters:
+    - data: DataFrame containing the patent application data
+    - categories: List of unique categories
+
+    Returns:
+    - DataFrame with the cumulative count of patent applications per year for each category
+    """
+    result = []
+    for category in categories:
+        category_data = data[data['CATEGORY'] == category]
+        applications_per_year = category_data.groupby('YEAR').size().reset_index(name='Applications_Per_Year')
+        applications_per_year['Cumulative_Count'] = applications_per_year['Applications_Per_Year'].cumsum()
+        applications_per_year['CATEGORY'] = category
+        result.append(applications_per_year)
+    
+    return pd.concat(result, ignore_index=True)
+
 def calculate_cumulative_count_per_category(data: pd.DataFrame, categories: list):
     """
     Calculate the cumulative count of patent applications per year for each unique category.
