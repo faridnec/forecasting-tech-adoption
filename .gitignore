@@ -11,6 +11,7 @@ tmp/
 syntheticData.ipynb
 backup/
 raw/
+*.xlsx
 
 # C extensions
 *.so
