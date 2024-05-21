@@ -3,6 +3,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
+def load_patent_data(data_path, sheet_name):
+    """
+    Load patent data from Excel file into a DataFrame.
+    
+    Args:
+    - data_path (str): Path to the Excel file containing the patent data.
+    - sheet_name (str): Name of the sheet containing the patent data in the Excel file.
+    
+    Returns:
+    - patent_data (pd.DataFrame): DataFrame containing the loaded patent data.
+    """
+    patent_data = pd.read_excel(data_path, sheet_name=sheet_name)
+    return patent_data
+
 # Define the logistic function
 def logistic_curve(x, L, k, x0):
     return L / (1 + np.exp(-k * (x - x0)))
