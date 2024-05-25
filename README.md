@@ -1,4 +1,4 @@
-# Modelling the Adoption Process of Technology Using Artificial Intelligence Methods
+<!-- # Modelling the Adoption Process of Technology Using Artificial Intelligence Methods
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Forecasting%20Adoption%20Rate-blue?style=flat-square&logo=github)](https://github.com/faridnec/forecasting-tech-adoption) 
 
@@ -70,4 +70,4 @@ forecasting-tech-adoption/
 4. PREDICTION MODELING
    
    - The aim is to predict the adoption process of technology, informing strategies for enhancing technology integration.
-   - A time-series prediction model, such as a recurrent neural network (RNN) or a combination of architectures, potentially suitable for capturing temporal dependencies in the adoption process.
+   - A time-series prediction model, such as a recurrent neural network (RNN) or a combination of architectures, potentially suitable for capturing temporal dependencies in the adoption process. -->

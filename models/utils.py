@@ -82,10 +82,8 @@ def preprocess_cpc_data(relevant_patents_df, cpc_col):
                 section = cpc_code[:4]
                 cpc_list.append(section)
 
-    # Create a DataFrame from the list of extracted CPC codes
     cpc_df = pd.DataFrame(cpc_list, columns=[cpc_col])
 
-    # Count the frequency of each CPC class
     cpc_counts = cpc_df[cpc_col].value_counts()
 
     return cpc_counts
