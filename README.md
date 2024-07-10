@@ -1,6 +1,6 @@
 # Modelling the Adoption Process of Technology Using Artificial Intelligence Methods
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Forecasting%20Adoption%20Rate-blue?style=flat-square&logo=github)](https://github.com/faridnec/forecasting-tech-adoption)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Modelling%20Technology%20Adoption%20Process-blue?style=flat-square&logo=github)](https://github.com/faridnec/forecasting-tech-adoption)
 
 <!-- > [!NOTE]
 > This project is still under development. -->
@@ -25,11 +25,12 @@ The suggested methodology is represented with a process flow covering main steps
 6. Filtering relevant patent using semantic search algorithm
 7. Modeling and forecasting the S-curves to analyze the technology adoption growth model.
 
-#### Patent Sources used and Topic reference
+#### Patent Sources
 
-
-
-
+| Patent Database              | Link   |
+|:-----------------------------|:-----------------|
+|![USPTO logo](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/logo/uspto.jpeg?raw=true)  | [Advanced Search USPTO](https://ppubs.uspto.gov/pubwebapp/)|
+|![Patsnap logo](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/logo/patsnap.png?raw=true)| [Patsnap](https://www.patsnap.com/)    |
 
 #### Project Structure
 
@@ -50,7 +51,12 @@ forecasting-tech-adoption/
 
 ## RESULTS AND CONCLUSION
 
+The methodology involves selecting target technologies, obtaining relevant patent data from databases such as USPTO and Patsnap, and processing obtained data using text embeddings, clustering, and topic modeling. This refined data is used for semantic searches, filtering relevant patents, and predicting future trends using logistic growth models. The methodology's application to technologies like 'Unmanned Aerial Vehicle' and 'Security Data Processing' demonstrates its efficiency in extracting trends and related CPC codes. These overall process offers a clear understanding of the selected technologies' development stages.
 
+| Dataset   | S-curves                     | Embedding Vectors| Clusters |
+|:----------|:-----------------------------|:-----------------|---------:|
+| *USPTO*   | ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/uspto/uav_1.png?raw=true) ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/uspto/uav_2.png?raw=true)  ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/uspto/sec_data_processing_1.png?raw=true)  ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/uspto/sec_data_processing_2.png?raw=true)    | ![USPTO vector](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/uspto/uspto_vec.gif?raw=true)     | ![USPTO cluster](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/uspto/uspto_cluster.png?raw=true)  |
+| *Patsnap* | ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/patsnap/uav_device_1.png?raw=true) ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/patsnap/uav_device_2.png?raw=true)  ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/patsnap/system_detection_1.png?raw=true)  ![S Curve](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/patsnap/system_detection_2.png?raw=true)               | ![Patsnap vector](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/patsnap/patsnap_vec.png?raw=true)    | ![Patsnap cluster](https://github.com/faridnec/forecasting-tech-adoption/blob/master/img/patsnap/patsnap_cluster.png?raw=true)|
 
 ## FUTURE STUDIES
 
